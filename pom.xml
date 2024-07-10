@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.Cypher</groupId>
     <artifactId>MyPersonalWebsite</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
     <name>MyPersonalWebsite</name>
     <description>MyPersonalWebsite</description>
     <url/>
@@ -27,7 +27,7 @@
         <url/>
     </scm>
     <properties>
-        <java.version>22</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>

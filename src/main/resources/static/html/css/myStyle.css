@@ -1,0 +1,10 @@
+/* 添加阴影效果的容器 */
+.img-container {
+    display: inline-block; /* 或者保持块级元素，根据需要调整 */
+    position: relative; /* 使阴影相对于图片容器定位 */
+}
+
+/* 实现阴影效果 */
+.shadow-effect {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 水平偏移、垂直偏移、模糊距离、阴影颜色和透明度 */
+}
