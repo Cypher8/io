@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.Cypher</groupId>
     <artifactId>MyPersonalWebsite</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.2-SNAPSHOT</version>
     <name>MyPersonalWebsite</name>
     <description>MyPersonalWebsite</description>
     <url/>
