@@ -103,16 +103,16 @@
             <div class="row text-center">
 <!--              <div class="row ">-->
 <!--                <div class="col-lg-1"></div>-->
-                <div class="col-lg-12 mb-4">
+                <div class="col-lg-6 mb-4">
                   <div class="icon mb-3"><i class="fas fa-desktop"></i></div>
                   <h4 class="text-uppercase lined lined-compact">光伏运维</h4>
                   <p class="text-mted">&nbsp&nbsp无人机采集图像，以及传感器采集数据，通过机器学习，实现光伏智能运维</p>
                 </div>
-<!--                <div class="col-lg-5  mb-4">-->
-<!--                  <div class="icon mb-3"><i class="fas fa-globe-americas"></i></div>-->
-<!--                  <h4 class="text-uppercase lined lined-compact">大数据分析</h4>-->
-<!--                  <p class="text-mted">&nbsp&nbsp对大数据分布式存储处理，高效实现数据处理、数据可视化、数据预测等</p>-->
-<!--                </div>-->
+                <div class="col-lg-6  mb-4">
+                  <div class="icon mb-3"><i class="fas fa-globe-americas"></i></div>
+                  <h4 class="text-uppercase lined lined-compact">大数据分析</h4>
+                  <p class="text-mted">&nbsp&nbsp对大数据分布式存储处理，高效实现数据处理、数据可视化、数据预测等</p>
+                </div>
 
 <!--                <div class="col-lg-1"></div>-->
 <!--              </div>-->
@@ -224,6 +224,65 @@
           </div>
         </div>
       </section>
+      <!--大数据介绍-->
+      <section >
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <header class="text-center mb-5">
+              <h2 class="text-uppercase lined">大数据分析</h2>
+            </header>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="col-lg-12 col-md-12 mb-4 " style="font-size: 20px; line-height: 2; height: 50%;"><p>项目主要是通过大数据的Hadoop分布式架构，对大量的数据进行分析处理，最终得到可用的信息。</p><p>系统从业务系统实时采集行为日志，借助Flume实现数据流传输；原始日志及中间数据通过HDFS分布式存储系统进行持久化。在计算层，采用Hive on Spark作为计算引擎，结合Yarn实现集群资源的调度实现核心分析，数据仓库层采用分层设计ODS→DWD→DWS→ADS逐层递进，DataX将处理后的应用层数据至MySQL便于可视化，结合BI生成可视化页面。</p></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="col-lg-12 col-md-12 mb-4 img-container shadow-effect" ><a href="html/img/集群框架逻辑结构.png" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="html/img/集群框架逻辑结构.png" alt="..." class="img-fluid d-block mx-auto"></a></div>
+                <!--                <div class="col-lg-12 col-md-12 mb-4" style="font-size: 15px; line-height: 1;color: grey"><p>（注：图片文件比较密集，请点击图片或者保存下载观看）</p></div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--大数据介绍-->
+      <section >
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <header class="text-center mb-5">
+              <h2 class="text-uppercase lined">大数据分析</h2>
+            </header>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="col-lg-12 col-md-12 mb-4 " style="font-size: 20px; line-height: 2; height: 4%;"></div>
+                <div class="col-lg-12 col-md-12 mb-4 " style="font-size: 20px; line-height: 2; height: 50%;"><p>我在项目中搭建了4个Linux系统，作为大数据分析，其中一个业务系统，三个Hadoop分布式集群，在业务系统中是原始数据产生的系统。集群是实现数据的分布式分析用了，主节点是hadoop1，其余是为了分析数据而形成的。</p></div>
+              </div>
+              <div class="col-lg-6">
+                <div class="col-lg-12 col-md-12 mb-4 img-container shadow-effect" ><a href="html/img/集群客户端分布.png" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="html/img/集群客户端分布.png" alt="..." class="img-fluid d-block mx-auto"></a></div>
+                <!--                <div class="col-lg-12 col-md-12 mb-4" style="font-size: 15px; line-height: 1;color: grey"><p>（注：图片文件比较密集，请点击图片或者保存下载观看）</p></div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--大数据介绍-->
+<!--      <section class="bg-gray" >-->
+<!--        <div class="d-flex h-100 align-items-center">-->
+<!--          <div class="container">-->
+<!--            <header class="text-center mb-5">-->
+<!--              <h2 class="text-uppercase lined">大数据分析</h2>-->
+<!--            </header>-->
+<!--            <div class="row">-->
+<!--              <div class="col-lg-6">-->
+<!--                &lt;!&ndash;                <div class="col-lg-12 col-md-12 mb-4 " style="font-size: 20px; line-height: 2; height: 4%;"></div>&ndash;&gt;-->
+<!--                <div class="col-lg-12 col-md-12 mb-4 " style="font-size: 20px; line-height: 2; height: 50%;"><p>可视化</p></div>-->
+<!--              </div>-->
+<!--              <div class="col-lg-6">-->
+<!--                <div class="col-lg-12 col-md-12 mb-4"><a href="html/img/数据库ER图.png" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="html/img/数据库ER图.png" alt="..." class="img-fluid d-block mx-auto img-container shadow-effect"></a></div>-->
+<!--                <div class="col-lg-12 col-md-12 mb-4" style="font-size: 15px; line-height: 1;color: grey"><p>（注：图片中文字比较密集，请点击图片或者保存下载观看）</p></div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
       <!--图像处理介绍-->
       <section  >
         <div class="d-flex h-100 align-items-center">
